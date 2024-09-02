@@ -1,0 +1,10 @@
+name: try
+on: push
+
+jobs:
+  number system:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print number system
+      run: echo "Number System"
